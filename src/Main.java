@@ -13,19 +13,13 @@ public class Main {
         Book blackMan = new Book("Black man", sergeyYesenin, 1926);
 
 
-        System.out.println("Название книги: " + theStand.getTitle()
-                + " Автор: " + theStand.getAuthor().getName() + " " + theStand.getAuthor().getSurname()
-                + " Дата: " +theStand.getPublicationYear());
+        System.out.println(theStand);
 
 
-        System.out.println("Название книги: " + warAndPeace.getTitle()
-                + " Автор: " + warAndPeace.getAuthor().getName() + " " + warAndPeace.getAuthor().getSurname()
-                + " Дата: " + warAndPeace.getPublicationYear());
+        System.out.println(warAndPeace);
 
 
-        System.out.println("Название книги: " + blackMan.getTitle()
-                + " Автор: " + blackMan.getAuthor().getName() + " " + blackMan.getAuthor().getSurname()
-                + " Дата: " + blackMan.getPublicationYear());
+        System.out.println(blackMan);
 
 
         warAndPeace.setPublicationYear(1999);
