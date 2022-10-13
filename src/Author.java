@@ -11,26 +11,13 @@ public class Author {
     }
 
 
-    public String getName() {
-        return this.name;
-    }
 
 
-    public String getSurname() {
-        return this.surname;
-    }
-
-
-    public String getFullName() {
-        return this.name + " " + this.surname;
-    }
 
     //1.10. Методы объектов
     public String toString() {
         return this.name + " " + surname;
     }
-
-
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -42,3 +29,4 @@ public class Author {
         return Objects.hash(name, surname);
     }
 }
+
